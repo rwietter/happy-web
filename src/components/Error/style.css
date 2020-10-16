@@ -1,0 +1,54 @@
+.full-page {
+	position: fixed;
+	z-index: 99999;
+
+	width: 60%;
+	min-height: 15vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 20px;
+
+
+	background: rgba(255,255,255,0.9);
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 2px 2px 100px -30px rgba(34,34,34,0.9);
+	-moz-box-shadow: 2px 2px 100px -30px rgba(34,34,34,0.9);
+	box-shadow: 2px 2px 100px -30px rgba(34,34,34,0.9);
+
+	bottom: 30px;
+	right: 0;
+	left: 0;
+}
+
+.error-message {
+	display: flex;
+	flex-flow: row;
+
+	line-height: 1.5rem;
+	transition: all 0.5s ease-in;
+}
+
+.error-message h1 {
+	color: #f93e5d;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.error-message-icon {
+	font-size: 2rem;
+	color: #f93e5d;
+}
+
+.go-initial {
+	color: RGB(0, 213, 147);
+	margin-left: 0.6rem;
+	transition: color 0.3s ease-in-out;
+}
+
+.go-initial:hover {
+	color: rgba(0, 213, 147, 0.8);
+}
