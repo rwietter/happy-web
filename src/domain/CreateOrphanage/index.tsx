@@ -146,9 +146,7 @@ const CreateOrphanage = () => {
 												key={image}
 												src={image}
 												alt={name}
-											>
-												<button type="button">X</button>
-											</img>
+											/>
 										);
 									})}
 									<label
